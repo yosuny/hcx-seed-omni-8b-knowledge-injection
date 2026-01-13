@@ -79,7 +79,7 @@ python 30_evaluation/compare_hcx_stages.py
 ```
 
 ## 레거시 프로젝트
-HyperCLOVA X 32B 및 SolverX에 대한 이전 작업 내용은 `reference/README_legacy.md`에서 확인할 수 있습니다.
+HyperCLOVA X 32B에 대한 이전 작업 내용은 `reference/README_legacy.md`에서 확인할 수 있습니다.
 
 ## 감사의 글 (Acknowledgements)
 이 프로젝트는 [hcx-seed-think-32b-knowledge-injection](https://github.com/shezgone/hcx-seed-think-32b-knowledge-injection) 리포지토리에서 분기(Spin-off)되었습니다. 기반 코드를 제공해 준 원작자에게 감사를 표합니다.

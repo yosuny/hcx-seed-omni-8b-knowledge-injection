@@ -79,7 +79,7 @@ python 30_evaluation/compare_hcx_stages.py
 ```
 
 ## Legacy Project
-To view the previous work on HyperCLOVA X 32B and SolverX, refer to `reference/README_legacy.md`.
+To view the previous work on HyperCLOVA X 32B, refer to `reference/README_legacy.md`.
 
 ## Acknowledgements
 This project was forked and spun-off from [hcx-seed-think-32b-knowledge-injection](https://github.com/shezgone/hcx-seed-think-32b-knowledge-injection). Special thanks to the original authors for the foundational work.
