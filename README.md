@@ -78,8 +78,10 @@ To reproduce the table above:
 python 30_evaluation/compare_hcx_stages.py
 ```
 
-## Legacy Project
-To view the previous work on HyperCLOVA X 32B, refer to `reference/README_legacy.md`.
+## Paper for knowledge injection
+- **Title**: [CLaRa: Bridging Retrieval and Generation with Continuous Latent Reasoning](https://arxiv.org/abs/2511.18659)
+- **Source**: arXiv:2511.18659
+- **License**: [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)
 
 ## Acknowledgements
 This project was forked and spun-off from [hcx-seed-think-32b-knowledge-injection](https://github.com/shezgone/hcx-seed-think-32b-knowledge-injection). Special thanks to the original authors for the foundational work.

@@ -19,6 +19,7 @@ class Config:
     LOG_FILE = "inference_logs.csv"
     DEFAULT_SFT_ADAPTER = "adapters_omni_8b_paper_sft"
     IGNORE_FILES = {".DS_Store"}
+    EXCLUDED_MODELS = {"HyperCLOVAX-SEED-Omni-8B", "HyperCLOVAX-SEED-Omni-8B-Text"}
 
 # --- Utility Functions ---
 
@@ -45,7 +46,7 @@ class ModelManager:
         models = []
         try:
             for d in os.listdir(Config.MODELS_DIR):
-                if d in Config.IGNORE_FILES:
+                if d in Config.IGNORE_FILES or d in Config.EXCLUDED_MODELS:
                     continue
                 
                 model_path = os.path.join(Config.MODELS_DIR, d)
@@ -146,7 +147,13 @@ def main():
             st.error(f"No models found in '{Config.MODELS_DIR}'!")
             st.stop()
         
-        selected_model = st.selectbox("Select Model", models, index=0)
+        selected_index = 0
+        for i, m in enumerate(models):
+            if "4bit" in m:
+                selected_index = i
+                break
+        
+        selected_model = st.selectbox("Select Model", models, index=selected_index)
 
         # 2. Adapter Selection
         adapters = ModelManager.get_available_adapters()
