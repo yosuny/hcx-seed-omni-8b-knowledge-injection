@@ -1,0 +1,53 @@
+/Users/user/Hands-on/hcx-seed-think-32b-knowledge-injection/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Loading model from models/HyperCLOVAX-SEED-Omni-8B-Text-4bit with adapter adapters_omni_8b_paper_sft...
+
+--- Starting SFT Inference ---
+
+Q1: What is CLaRa in the context of retrieval-generation?
+==========
+Retrieval-Augmented Generation (RAG) is a powerful framework for integrating the strengths of both information retrieval and generative models in a unified system. At the core of RAG is the retrieval component, which is responsible for fetching relevant documents or data from a knowledge base or database. This retrieval process is crucial for providing the generative model with the necessary context, information, or data to produce high-quality outputs.
+
+The retrieval component in RAG can be implemented using various methods, such as:
+
+1. Vector-based methods: These methods represent documents or data as vectors using techniques like embeddings or hashing. The retrieval component then performs a similarity search between the input and the document vectors to identify the most relevant documents.
+2. Document-based methods: These methods store documents in a document-level format, such as JSON or XML, and perform retrieval using document-level matching algorithms.
+3. Hybrid methods: These methods combine vector-based and document-based methods to leverage the strengths of both approaches.
+
+The retrieval component in R
+==========
+Prompt: 16 tokens, 49.634 tokens-per-sec
+Generation: 200 tokens, 15.232 tokens-per-sec
+Peak memory: 5.517 GB
+
+----------------
+
+Q2: Explain SCP and its purpose.
+==========
+SCP, or Secure Copy Protocol, is a software used for the purpose of copying files between two systems. It is used for the purpose of copying files between two systems in a secure way.
+==========
+Prompt: 10 tokens, 15.068 tokens-per-sec
+Generation: 39 tokens, 11.908 tokens-per-sec
+Peak memory: 5.517 GB
+
+----------------
+
+Q3: Describe the joint training process in CLaRa.
+==========
+The joint training process in CLaRa is a multi-stage approach that ensures the system learns from various data representations and interactions. Here’s a breakdown of the key stages:
+
+1. **Initialization and Data Representation Setup**: Before the joint training, the system initializes with a representation for the data it will learn from. This representation can be a simple vector, a complex neural network model, or any other format that can capture the nuances of the data.
+
+2. **Multi-Stage Representation Learning**: During the joint training, the system undergoes multiple stages of representation learning. Each stage involves different data representations and learning objectives:
+   - **Stage 1**: The system learns from a representation that captures the general features of the data.
+   - **Stage 2**: The system refines its representation by focusing on more specific or nuanced features.
+   - **Stage 3**: The system learns from a representation that integrates the knowledge from the previous stages, aiming for a more comprehensive understanding.
+
+3. **
+==========
+Prompt: 14 tokens, 32.817 tokens-per-sec
+Generation: 200 tokens, 11.467 tokens-per-sec
+Peak memory: 5.517 GB
+
+----------------
+

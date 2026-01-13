@@ -1,0 +1,36 @@
+/Users/user/Hands-on/hcx-seed-think-32b-knowledge-injection/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Loading model from models/HyperCLOVAX-SEED-Omni-8B-Text-4bit with adapter adapters_omni_8b_paper_sft...
+
+--- Starting SFT Inference ---
+
+Q1: What is CLaRa in the context of retrieval-generation?
+==========
+The Compact, Lightweight, Reasonable, and Robust (CLaRa) model is a compact, efficient, and robust model for understanding and generation tasks. It is designed to be both efficient and effective, making it a promising candidate for a wide range of natural language processing (NLP) tasks. The model's compact and lightweight design makes it suitable for deployment on devices with limited computational resources, such as edge devices and mobile phones. Additionally, the model's robustness ensures that it can perform well in a variety of real-world conditions, including those with noisy or incomplete data. The model's reasonable performance makes it a viable option for a wide range of NLP tasks, from simple question generation to more complex tasks such as natural language understanding and reasoning. The compact, lightweight, and robust design of the CLaRa model makes it a promising candidate for a wide range of NLP tasks, and its efficient and effective performance makes it a viable option for both research and practical applications.
+==========
+Prompt: 16 tokens, 31.798 tokens-per-sec
+Generation: 199 tokens, 17.043 tokens-per-sec
+Peak memory: 5.517 GB
+
+----------------
+
+Q2: Explain SCP and its purpose.
+==========
+A Secure Copy Protocol (SCP) is a simple, efficient, and secure method for securely copying files between hosts. The protocol uses the Secure Shell (SSH) protocol for all communication, which ensures that all data is encrypted during transmission. This makes SCP an ideal tool for securely transferring files, especially when working with sensitive or confidential information. The protocol is designed to be simple to use and can be used from the command line or through a graphical user interface (GUI).
+==========
+Prompt: 10 tokens, 35.017 tokens-per-sec
+Generation: 94 tokens, 17.245 tokens-per-sec
+Peak memory: 5.517 GB
+
+----------------
+
+Q3: Describe the joint training process in CLaRa.
+==========
+During the joint training stage, the two models are trained together on the shared task. The joint training stage generally lasts for one or two epochs. During this stage, the models learn to cooperate and share information with each other. The joint training stage is an essential step in the training process, as it helps the models to learn how to work together and share information. After the joint training stage, the models are trained separately on the shared task. The separate training stage generally lasts for one or two epochs. During this stage, the models learn to work independently and make their own decisions. The separate training stage is an essential step in the training process, as it helps the models to learn how to work together and make their own decisions. The joint training stage and the separate training stage are both essential steps in the training process, as they help the models to learn how to work together and make their own decisions. The joint training stage and the separate training stage are both essential steps in the training process,
+==========
+Prompt: 14 tokens, 50.924 tokens-per-sec
+Generation: 200 tokens, 17.097 tokens-per-sec
+Peak memory: 5.517 GB
+
+----------------
+

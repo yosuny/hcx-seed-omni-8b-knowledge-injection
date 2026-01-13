@@ -1,0 +1,36 @@
+/Users/user/Hands-on/hcx-seed-think-32b-knowledge-injection/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Loading model from models/HyperCLOVAX-SEED-Omni-8B-Text-4bit with adapter adapters_omni_8b_paper_sft...
+
+--- Starting SFT Inference ---
+
+Q1: What is CLaRa in the context of retrieval-generation?
+==========
+CLaRa stands for Continuous Latent Reasoning. It is a framework for continuous language and retrieval modeling. It uses a retrieval and generation framework to perform complex language modeling and reasoning tasks.
+==========
+Prompt: 16 tokens, 49.202 tokens-per-sec
+Generation: 39 tokens, 17.947 tokens-per-sec
+Peak memory: 5.517 GB
+
+----------------
+
+Q2: Explain SCP and its purpose.
+==========
+SCP stands for Secure Copy Protocol. It is a purposeful protocol used to transfer files between a client and a server. It is a simple and efficient way to copy files from one location to another. It is used in various applications, such as rsync, rsync-rsync, and rsync-rsync-rsync. It is a widely used and essential protocol for file transfers.
+==========
+Prompt: 10 tokens, 35.154 tokens-per-sec
+Generation: 78 tokens, 15.060 tokens-per-sec
+Peak memory: 5.517 GB
+
+----------------
+
+Q3: Describe the joint training process in CLaRa.
+==========
+CLaRa trains a reranker and a generator end-to-end via a single language modeling loss. It uses a single language modeling loss to train both the reranker and the generator end-to-end.
+==========
+Prompt: 14 tokens, 23.900 tokens-per-sec
+Generation: 43 tokens, 11.786 tokens-per-sec
+Peak memory: 5.517 GB
+
+----------------
+

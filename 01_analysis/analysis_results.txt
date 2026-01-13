@@ -1,0 +1,52 @@
+=== 1. Source PDF Analysis ===
+Analyzing knowledge_data/2511.18659v2.pdf...
+
+========================================
+ [ Analysis Result for 2511.18659v2.pdf ]
+========================================
+- Total Pages     : 41
+- Total Characters: 127086
+- Total Words     : 22116
+----------------------------------------
+ [ Top 20 Keywords ]
+  document       : 133
+  cid            : 101
+  retrieval      : 98
+  mistral        : 89
+  generation     : 77
+  2025           : 76
+  compression    : 76
+  information    : 72
+  end            : 72
+  documents      : 69
+  128x           : 64
+  32x            : 60
+  query          : 53
+  16x            : 53
+  question       : 52
+  representations: 51
+  answer         : 50
+  phi4           : 48
+  https          : 47
+  questions      : 45
+========================================
+
+
+=== 2. Baseline Model Probe ===
+Loading Base Model: models/HyperCLOVAX-SEED-Omni-8B-Text-4bit
+
+==================================================
+ [ Baseline Probing Result ]
+==================================================
+
+[Query]: CLaRa
+[Response]: CLaRa is a classroom audio system that is designed to improve the listening experience for teachers and students. It is a wireless system that uses Bluetooth technology to connect to a teacher's device, such as a laptop or tablet, and transmit the audio to speakers placed in the classroom. CLaRa is designed to be easy to set up and use, and it can be used in a variety of classroom settings.
+
+[Query]: SCP (Salient Compressor Pretraining)
+[Response]: SCP is a pretraining method for compressing multimodal data. It is a simple and efficient method that can be used to compress multimodal data into a fixed-size vector. SCP is based on the idea of using a pretraining objective to learn a representation of the data that is invariant to the modality. This representation can then be used as a fixed-size vector to represent the data. SCP has been shown to be effective in compressing multimodal data, and it has been used in a variety
+
+[Query]: Joint Training in CLaRa
+[Response]: Joint training, or joint training sessions, are a practice in the CLaRa model where two or more agents are trained together in the same environment. This approach allows the agents to learn from each other and from the environment, leading to improved performance and cooperation. Joint training can be particularly useful in scenarios where agents need to work together to achieve a common goal, such as in multi-agent reinforcement learning tasks. By training together, the agents can develop a shared understanding of the environment and learn to coordinate their
+
+CLaRa: "Classroom audio system"으로 잘못 정의 (Hallucination).
+SCP: 질문에 풀네임을 줬음에도 "Multimodal data compression" 등으로 부정확하게 설명. (단어만 보고 추측)
