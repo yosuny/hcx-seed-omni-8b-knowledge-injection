@@ -71,7 +71,7 @@ We added a Streamlit-based web interface for easier model testing and comparison
 We performed CPT on the 4-bit quantized text backbone using 2511.18659v2 paper data.
 
 ### Data Preparation
-- **Source**: `data/2511.18659v2.pdf`
+- **Source**: `knowledge_data/2511.18659v2.pdf`
 - **Processed**: `data_paper_cpt/train.jsonl` (36 lines), `valid.jsonl` (5 lines)
 - **Method**: Extracted text via `pdfplumber`, split 90/10.
 
